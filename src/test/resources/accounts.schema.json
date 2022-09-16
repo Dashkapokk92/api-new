@@ -14,7 +14,7 @@
     ],
     "properties": {
       "id": {
-        "type": "integer"
+        "type": "string"
       },
       "name": {
         "type": "string",
@@ -31,6 +31,7 @@
       "currency": {
         "type": "string",
         "pattern": "^RUB|USD$"
+
       }
     }
   }
